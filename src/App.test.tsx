@@ -8,6 +8,6 @@ describe("App", () => {
   test("Should render hello heading", async () => {
     render(<App />);
 
-    expect(screen.queryByText("Vite + React")).toBeInTheDocument();
+    expect(screen.queryByText("Vite + React!")).toBeInTheDocument();
   });
 });
