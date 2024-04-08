@@ -1,0 +1,11 @@
+name: Code Checks
+description: Lint and unit tests
+
+runs:
+  using: "composite"
+  steps:
+    - name: Lint code
+      run: npm run lint
+
+    - name: Run unit tests
+      run: npm run test
